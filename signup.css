@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     font-family: Arial, sans-serif; 
+}
+
+body{
+    background-color: rgb(192, 195, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    width: 400px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+     box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+      color: #333; /* 🌟 added darker color for contrast */
+}
+
+
+label{
+    font-size: 25px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 85%;
+    height: 30px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+     transition: border-color 0.2s ease; /* 🌟 smooth focus transition */
+}
+
+button{
+    width: 85%;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgba(135, 40, 135, 0.9);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    display: block;
+    margin:  0 auto;
+    transform: translateX(8px); /* 🌟 nudges button slightly to right */
+}
+button:hover {
+  background-color: rgb(110, 110, 230); /* 🌟 subtle hover */
+}
